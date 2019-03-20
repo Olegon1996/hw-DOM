@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#eight_button{
+    background: black;
+    width: 90%;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+}
+
+#button_a,
+#button_s,
+#button_d,
+#button_f,
+#button_g,
+#button_h,
+#button_j,
+#button_k{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 150px;
+    height: 450px;
+    background: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
